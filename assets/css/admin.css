@@ -1,0 +1,180 @@
+
+
+
+/* *************************************************** */
+html, body{
+    height: 100%;
+}
+h1.page-title{
+    font-size:2.7rem ;
+    color: #246224;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.btn-big{
+    padding: 0;
+    line-height: 1.3rem;
+    color: #ffffff;
+    border-radius: 2.5rem;
+    background-color:#246224 ;
+    text-align: center;
+    margin: 10px 10px;
+    cursor: pointer;
+    width: 300px;
+    padding: 10px;
+}
+
+.page-title{
+    font-size:1rem ;
+    color: #246224;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+ header{
+    background: #246224;
+    height:90px;
+}
+
+.admin-wrapper{
+    
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    margin-top: 66px;
+    
+}
+
+
+.admin-wrapper .right-sidebar{
+    flex:2;
+    background: #869558;
+    height: 100%;
+    border-left: 3px solid #246224;
+
+}
+
+.admin-wrapper .right-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-wrapper .right-sidebar ul a{
+    margin-top: 2rem;
+    padding:18px;
+    display: block;
+    color: #134919;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom:0;
+    text-align: center;
+
+}
+.admin-wrapper .right-sidebar ul a:hover{
+    font-size: 1.4rem;
+}
+.admin-wrapper .admin-content{
+    flex:8;
+    height: 100%; 
+    padding: 40px 80px 100px;
+    overflow-y: scroll;
+}
+header ul li ul{
+    background-color: #246224;
+}
+header ul li ul li a.logout{
+    color: rgb(255, 255, 255);
+ }
+ header ul li ul li a:hover{
+    background: #134919;
+    
+}
+header ul  li a:hover{
+    color: #134919;
+    transition: 0.5s;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+    color: #134919;
+    table-layout: fixed;
+}
+
+th,td{
+    padding:15px;
+    text-align: center;
+    border-bottom: 1px solid #a0a0a0;
+}
+.edit{
+    color:rgb(26, 142, 26)
+}
+.publish{
+    color: blue;
+}
+
+.unpublish{
+    color: rgb(255, 0, 221);
+}
+
+.delete{
+    color:red;
+}
+
+.edit:hover{
+    text-decoration: underline;
+}
+.publish:hover{
+    text-decoration: underline;
+}
+.delete:hover{
+    text-decoration: underline;
+}
+.action{
+    text-align: center;
+}
+
+.text-inputt{
+    padding: .7rem 1rem;
+    display: inline;
+    border: 1px solid #a0a0a096;
+    width:100%;
+    border-radius: 0px;
+    outline: none;
+    color:#000000;
+    line-height:1.5rem;
+    font-size: 1rem;
+    text-align: right;
+ }
+
+ .text-inputt:focus{
+    border: 1px solid rgb(0, 81, 255);
+ }
+.title-flow{
+    white-space: nowrap;
+  width: 200px;
+  border-bottom: 1px solid #a0a0a0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+div label{
+    font-size: 1.3rem;
+    color: #246224;
+    margin-bottom: 2rem;
+}
+p{
+    color: #000000;
+}
+button{
+    font-family:  'Cairo', sans-serif;
+}
+
+form div{
+    margin-bottom: 15px;
+}
+
+
+
+
+ 
